@@ -31,3 +31,9 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+本地环境开启mongodb
+ - net start MongoDB 开启mongodb服务
+ - > mongo 进入mongo服务
+ - net stop MongonDB 关闭服务
+ 

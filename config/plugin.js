@@ -1,9 +1,15 @@
-'use strict';
+"use strict";
 
-/** @type Egg.EggPlugin */
-module.exports = {
-  // had enabled by egg
-  // static: {
-  //   enable: true,
-  // }
+// https://eggjs.org/zh-cn/basics/plugin.html
+exports.mongoose = {
+  enable: true,
+  package: "egg-mongoose",
+};
+exports.validate = {
+  enable: true,
+  package: "egg-validate",
+};
+exports.routerGroup = {
+  enable: true,
+  package: "egg-router-group",
 };
